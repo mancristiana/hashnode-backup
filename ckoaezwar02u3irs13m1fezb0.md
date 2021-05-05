@@ -1,13 +1,13 @@
 ## Creating an Empty Commit
 
-There are times when creating an empty commit in Git is useful. A common scenario is the need to trigger a continuous integration pipeline or adding an important commit message that might have some effect. For example, SemVer integrates with Git and uses commit messages to increase version numbers of your library or application semantically. 
+There are times when creating an empty commit in Git is useful. A common scenario is the need to trigger a continuous integration pipeline or adding an important commit message that might have some effect. For example, GitVersion integrates with Git and uses commit messages to increase version numbers of your library or application semantically. 
 
 This short post shows you how you can create an empty commit.
 
 ## Attempt to commit without any file changes
 
-I needed to create an empty commit when using SemVer. Let me explain.
-SemVer finds commit messages containing patterns like `+semver:minor` and determines the corresponding build and release number used in the continuous deployment process. While the best practice is adding this text on the commit with the minor or major change, there are cases where the change is broken up into multiple smaller commits. I personally experienced such a scenario or forgot to add the correct message bumping the version.
+I needed to create an empty commit when using GitVersion. Let me explain.
+GitVersion finds commit messages containing patterns like `+semver:minor` and determines the corresponding build and release number used in the continuous deployment process. While the best practice is adding this text on the commit with the minor or major change, there are cases where the change is broken up into multiple smaller commits. I personally experienced such a scenario or forgot to add the correct message bumping the version.
 
 So I tried running this:
 ```
