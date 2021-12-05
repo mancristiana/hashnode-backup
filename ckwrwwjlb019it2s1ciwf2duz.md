@@ -1,4 +1,4 @@
-## Advent of Code: Day 4
+## Advent of Code 2021: Day 4
 
 This blog post is fourth in the Advent of Code 2021 series and shows a JavaScript-based solution to the problem described in [Day 4](https://adventofcode.com/2021/day/4). The stories never stop surprising me. This one, in particular, is about playing bingo with a giant squid! Consider me entertained 😎
 
