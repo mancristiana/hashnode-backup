@@ -16,7 +16,7 @@ We can break this problem into smaller tasks:
 - parse the binary string to decimal
 
 ### Read lines from the input file
-I wrote about the `readInput` function in my (Advent of Code: Day 1)[https://blog.cristiana.tech/advent-of-code-2021-day-1] blog post. If you haven't already, give it a read!
+I wrote about the `readInput` function in my [Advent of Code: Day 1](https://blog.cristiana.tech/advent-of-code-2021-day-1) blog post. If you haven't already, give it a read!
 
 ```js
 import { URL, fileURLToPath } from 'url'
